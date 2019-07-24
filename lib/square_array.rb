@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+a = []
+array.each dp |b|
+a << b **2
+end
+return a
 end
